@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&family=Poppins:wght@300;500;700&display=swap');
+@import "reset";
+@import "variable";
+@import "grid";
+@import "gift";
+@import "index";
+@import "info";
+@import "phone";
+@import "secret-boxes";
+@import "animation";
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/background.jpg);
+    background-position: bottom;
+    background-size: cover;
+    padding: 2rem 4rem;
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.while {
+    color: #fff!important;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+    padding: 0 60px;
+    &-title {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+.logo img{
+    width: 13%
+}
+/*==================== MEDIA QUERIES ====================*/
+/* PC: width >= 1024px */
+@media (min-width: 64em) {
+ 
+}
+
+/* Tablet and mobile: width < 1024px */
+@media (max-width: 64.625em) {
+
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media (min-width: 46.25em) and (max-width: 64.625em) {
+    .logo img{
+        width: 20%
+    }
+}
+
+/* Mobile: width < 740px */
+@media (max-width: 46.1875em) {
+    .logo img{
+        width: 100%
+    }
+}
+
+// /*==================== MEDIA QUERIES ====================*/
+// /* PC: width >= 1024px */
+// @media (min-width: 64em) {
+ 
+// }
+
+// /* Tablet and mobile: width < 1024px */
+// @media (max-width: 64.625em) {
+
+// }
+
+// /* Tablet: width >= 740px and width < 1024px */
+// @media (min-width: 46.25em) and (max-width: 64.625em) {
+
+// }
+
+// /* Mobile: width < 740px */
+// @media (max-width: 46.1875em) {
+
+// }
+
+
+

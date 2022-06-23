@@ -1,0 +1,42 @@
+.ninjaphone-img{
+  width: 50%;
+}
+.phone{
+  padding: 10px 40px 10px 40px;
+  position: relative;
+  border: 10% solid #ffffff;
+  border-radius: 10px;
+  margin-top:1rem;
+}
+// .center img{
+//   display: block;
+//   margin: 0 auto;
+//   margin-top: 6rem;
+// }
+.font20{
+  font-size:25px;
+}
+.font15{
+  font-size: 15px;
+}
+/*==================== MEDIA QUERIES ====================*/
+/* PC: width >= 1024px */
+@media (min-width: 64em) {
+ 
+}
+
+/* Tablet and mobile: width < 1024px */
+@media (max-width: 64.625em) {
+
+   
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media (min-width: 46.25em) and (max-width: 64.625em) {
+  
+}
+
+/* Mobile: width < 740px */
+@media (max-width: 46.1875em) {
+  
+}

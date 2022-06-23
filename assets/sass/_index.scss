@@ -1,0 +1,44 @@
+.text-3D {
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow:    1px 1px #660909, 
+                    3px 3px #ac0404, 
+                    4px 4px #580303;
+}
+
+.gift-name {
+    letter-spacing: .2em;
+}
+.title {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.suptitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+// /*==================== MEDIA QUERIES ====================*/
+// /* PC: width >= 1024px */
+// @media (min-width: 64em) {
+ 
+// }
+
+// /* Tablet and mobile: width < 1024px */
+// @media (max-width: 64.625em) {
+
+// }
+
+// /* Tablet: width >= 740px and width < 1024px */
+// @media (min-width: 46.25em) and (max-width: 64.625em) {
+
+// }
+
+// /* Mobile: width < 740px */
+// @media (max-width: 46.1875em) {
+
+// }
