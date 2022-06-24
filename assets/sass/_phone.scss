@@ -1,23 +1,21 @@
-.ninjaphone-img{
-  width: 50%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 .phone{
-  padding: 10px 40px 10px 40px;
+  padding: 10px 5rem 10px 40px;
   position: relative;
-  border: 10% solid #ffffff;
   border-radius: 10px;
   margin-top:1rem;
 }
-// .center img{
-//   display: block;
-//   margin: 0 auto;
-//   margin-top: 6rem;
-// }
-.font20{
-  font-size:25px;
+.ninjaphone-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top:2rem;
 }
-.font15{
-  font-size: 15px;
+.note{
+  font-size: 1.2rem;
+  font-weight: 50;
+
 }
 /*==================== MEDIA QUERIES ====================*/
 /* PC: width >= 1024px */
@@ -40,3 +38,5 @@
 @media (max-width: 46.1875em) {
   
 }
+
+
