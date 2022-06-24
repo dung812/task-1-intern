@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&family=Poppins:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -536,6 +537,43 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-left: 91.66667%;
   }
 }
+.container__gift {
+  width: 100%;
+  height: 100%;
+  background: url(../img/background_gift_2.png);
+  background-position: bottom;
+  background-size: contain;
+  padding: 2rem 4rem;
+  overflow: hidden;
+}
+
+.gift__name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  background-color: #fff;
+  color: #de2e2e;
+  display: inline-block;
+  padding: 10px 45px 10px 40px;
+  position: relative;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 5px 0px 5px #000;
+  -moz-box-shadow: 5px 5px 5px #000;
+  -webkit-box-shadow: 0px 10px 50px #000;
+  margin-top: 2rem;
+}
+
+.img_gift {
+  width: 40%;
+  transform: rotate(10deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .text-3D {
   text-transform: uppercase;
   font-family: verdana;
@@ -832,20 +870,19 @@ p, h1, h2, h3, h4, h5, h6 {
     right: 12%;
   }
 }
-.ninjaphone-img {
-  width: 50%;
-}
-
 .phone {
-  padding: 10px 40px 10px 40px;
+  padding: 10px 5rem 10px 40px;
   position: relative;
-  border: 10% solid #ffffff;
   border-radius: 10px;
   margin-top: 1rem;
 }
 
-.font20 {
-  font-size: 25px;
+.ninjaphone-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 2rem;
 }
 
 .font15 {
@@ -1063,7 +1100,7 @@ p, h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-.while {
+.white {
   color: #fff !important;
 }
 
