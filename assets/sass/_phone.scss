@@ -1,20 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-.phone{
-  padding: 10px 5rem 10px 40px;
-  position: relative;
-  border-radius: 10px;
-  margin-top:1rem;
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  border-radius: 0.35rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  margin-top: 1rem;
 }
 .ninjaphone-img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-top:2rem;
+  width: 40%;
+  padding-top:120px;
 }
-.font15{
-  font-size: 15px;
-} 
+.phone{
+  background-image: url(../img/background_phone.png) !important; 
+}
+.eclipse{
+  clip-path: ellipse(42% 21% at 50% 50%);
+  width: 100px;
+  height: 100px;
+  background: rgb(90, 89, 89);
+  box-shadow: 5px 10px #000;
+
+}
 /*==================== MEDIA QUERIES ====================*/
 /* PC: width >= 1024px */
 @media (min-width: 64em) {
@@ -23,18 +37,24 @@
 
 /* Tablet and mobile: width < 1024px */
 @media (max-width: 64.625em) {
-
+  .ninjaphone-img {
+      width: 80%;
+    }
    
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media (min-width: 46.25em) and (max-width: 64.625em) {
-  
+  .ninjaphone-img {
+      width: 80%;
+    }
 }
 
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
-  
+  .ninjaphone-img {
+      width: 100%;
+    }
 }
 
 
