@@ -1,5 +1,11 @@
+.ninjaPhone-img {
+  width: 20%;
+  margin: 0 auto;
+}
+
 .form__input {
-  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
   color: #333;
   font-size: 1.2rem;
   margin: 0 auto;
@@ -10,53 +16,40 @@
   border-bottom: 0.3rem solid transparent;
   transition: all 0.3s;
 }
-// .ninjaphone-img{
-//   display: block;
-//   margin-left: auto;
-//   margin-right: auto;
-//   width: 25rem;
-// }
-.phone {
-  background-image: url(../img/background_phone.png) !important;
+
+.background-phone {
+  background: url(../img/background_phone_normal.png);
+  background-position: center bottom;
+  background-size: cover;
 }
-.phone_sucess{
-  background-image: url(../img/background_success.png) !important;
-}
-.phone_error{
-  background-image: url(../img/background_phone_error.png) !important;
-}
-.eclipse{
-  clip-path: ellipse(42% 21% at 50% 50%);
-  width: 100px;
-  height: 100px;
-  background: rgb(90, 89, 89);
-  box-shadow: 5px 10px #000;
-}
+
 /*==================== MEDIA QUERIES ====================*/
 /* PC: width >= 1024px */
 @media (min-width: 64em) {
-  .error {
-      font-size: 20px;
-      margin-top: -20px;
+  .phone-input {
+    width: 25%;
   }
 }
 
 /* Tablet and mobile: width < 1024px */
 @media (max-width: 64.625em) {
-.error {
-    font-size: 15px;
-  }
 
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media (min-width: 46.25em) and (max-width: 64.625em) {
-
+  .phone-input {
+    width: 60%;
+  }
+  .ninjaPhone-img {
+    width: 45%
+  }
 }
 
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
-
+  .ninjaPhone-img {
+    width: 70%
+  }
+  
 }
-
-

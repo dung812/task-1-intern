@@ -1,0 +1,31 @@
+.ninja-img {
+    width: 35%;
+    margin: 0 auto;
+}
+.hotline {
+    
+}
+/*==================== MEDIA QUERIES ====================*/
+/* PC: width >= 1024px */
+@media (min-width: 64em) {
+}
+
+/* Tablet and mobile: width < 1024px */
+@media (max-width: 64.625em) {
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media (min-width: 46.25em) and (max-width: 64.625em) {
+    .ninja-img {
+        width: 35%;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile: width < 740px */
+@media (max-width: 46.1875em) {
+    .ninja-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
