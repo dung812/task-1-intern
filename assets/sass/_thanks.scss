@@ -14,6 +14,7 @@
   width:40%;
   position: relative;
   display: inline-block;
+  
 }
 /* Tablet and mobile: width < 1024px */
 @media (max-width: 64.625em) {
@@ -22,11 +23,17 @@
     position: relative;
     display: inline-block;
   }
+  .container_thanks {
+      background-image: url(../img/mobile.png);
+  }
+  .mobile{
+    margin-top: 4.5rem;
+  }
 }
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
   .container_thanks {
-      background-image: url(../img/background_mobile_ninja_step5.png);
+      background-image: url(../img/mobile.png);
     }
     .hotline {
       font-size: 10px;
@@ -35,5 +42,8 @@
       width: 100%;
       position: relative;
       display: inline-block;
+    }
+    .mobile {
+      margin-top: 4.5rem;
     }
 }

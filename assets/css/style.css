@@ -926,19 +926,18 @@ p, h1, h2, h3, h4, h5, h6 {
   display: block;
   border-bottom: 0.3rem solid transparent;
   transition: all 0.3s;
-  margin-top: 1rem;
+  margin-top: 10px;
 }
 
 .ninjaphone-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  padding-top: 120px;
+  width: 25rem;
 }
 
 .phone {
-  background-image: url(../img/background_phone.png) !important;
+  background-image: url(../img/background_phone_normal.png) !important;
 }
 
 .eclipse {
@@ -955,18 +954,21 @@ p, h1, h2, h3, h4, h5, h6 {
 @media (max-width: 64.625em) {
   .ninjaphone-img {
     width: 80%;
+    padding-top: 150px;
+  }
+  .phone {
+    background-image: url(../img/background_phone_normal.png) !important;
   }
 }
 /* Tablet: width >= 740px and width < 1024px */
-@media (min-width: 46.25em) and (max-width: 64.625em) {
-  .ninjaphone-img {
-    width: 80%;
-  }
-}
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
   .ninjaphone-img {
-    width: 100%;
+    width: 80%;
+    padding-top: 120px;
+  }
+  .phone {
+    background-image: url(../img/background_phone_normal.png) !important;
   }
 }
 .box {
@@ -1148,11 +1150,17 @@ p, h1, h2, h3, h4, h5, h6 {
     position: relative;
     display: inline-block;
   }
+  .container_thanks {
+    background-image: url(../img/mobile.png);
+  }
+  .mobile {
+    margin-top: 4.5rem;
+  }
 }
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
   .container_thanks {
-    background-image: url(../img/background_mobile_ninja_step5.png);
+    background-image: url(../img/mobile.png);
   }
   .hotline {
     font-size: 10px;
@@ -1161,6 +1169,9 @@ p, h1, h2, h3, h4, h5, h6 {
     width: 100%;
     position: relative;
     display: inline-block;
+  }
+  .mobile {
+    margin-top: 4.5rem;
   }
 }
 .center {
