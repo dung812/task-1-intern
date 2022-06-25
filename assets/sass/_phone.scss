@@ -9,16 +9,21 @@
   display: block;
   border-bottom: 0.3rem solid transparent;
   transition: all 0.3s;
-  margin-top:10px;
 }
-.ninjaphone-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25rem;
+// .ninjaphone-img{
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 25rem;
+// }
+.phone {
+  background-image: url(../img/background_phone.png) !important;
 }
-.phone{
-  background-image: url(../img/background_phone_normal.png) !important; 
+.phone_sucess{
+  background-image: url(../img/background_success.png) !important;
+}
+.phone_error{
+  background-image: url(../img/background_phone_error.png) !important;
 }
 .eclipse{
   clip-path: ellipse(42% 21% at 50% 50%);
@@ -26,22 +31,22 @@
   height: 100px;
   background: rgb(90, 89, 89);
   box-shadow: 5px 10px #000;
-
 }
 /*==================== MEDIA QUERIES ====================*/
 /* PC: width >= 1024px */
 @media (min-width: 64em) {
+  .error {
+      font-size: 20px;
+      margin-top: -20px;
+  }
 }
 
 /* Tablet and mobile: width < 1024px */
 @media (max-width: 64.625em) {
-.ninjaphone-img {
-    width: 80%;
-    padding-top: 150px;
+.error {
+    font-size: 15px;
   }
-    .phone {
-      background-image: url(../img/background_phone_normal.png) !important;
-    }
+
 }
 
 /* Tablet: width >= 740px and width < 1024px */
@@ -51,13 +56,7 @@
 
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
-  .ninjaphone-img {
-    width: 80%;
-    padding-top: 120px;
-  }
-  .phone {
-    background-image: url(../img/background_phone_normal.png) !important;
-  }
+
 }
 
 
