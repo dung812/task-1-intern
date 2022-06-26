@@ -16,4 +16,6 @@ window.addEventListener("load", () => {
         const boxElement = boxImgs[getRandomInt(0,lengthBoxImgs)];
         boxElement.classList.add("active");
     },3000);
+
+
 });

@@ -118,7 +118,7 @@
         font-style: italic;
     }
     .container {
-        padding: 1rem 2rem;
+        padding: 1rem 1.8rem;
     }
 }
 
@@ -132,7 +132,16 @@
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
     .logo img{
-        width: 80%
+        width: 100%
+    }
+
+    .center-content {
+        width: 100%;
+        padding: 0 1.6rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 

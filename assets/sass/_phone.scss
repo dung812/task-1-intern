@@ -1,3 +1,5 @@
+
+
 .ninjaPhone-img {
   width: 20%;
   margin: 0 auto;
@@ -33,7 +35,6 @@
 
 /* Tablet and mobile: width < 1024px */
 @media (max-width: 64.625em) {
-
 }
 
 /* Tablet: width >= 740px and width < 1024px */
@@ -42,14 +43,15 @@
     width: 60%;
   }
   .ninjaPhone-img {
-    width: 45%
+    width: 45%;
   }
 }
 
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
   .ninjaPhone-img {
-    width: 70%
+    width: 70%;
   }
   
+
 }

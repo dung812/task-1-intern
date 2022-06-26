@@ -1,62 +1,62 @@
 .text-transform-none {
-    text-transform: none;
+  text-transform: none;
 }
 
 .list-promotion {
-    display: inline-block;
-    text-align: left;
-    font-style: italic;
+  display: inline-block;
+  text-align: left;
+  font-style: italic;
 }
 
 .ninjaInfo-imgs {
-    width: 65%;
-    display: inline-block;
+  width: 65%;
+  display: inline-block;
 }
 
 .ninjaInfo-img {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .voucher-imgs {
-    display: inline-block;
-    width: 75%;
+  display: inline-block;
+  width: 75%;
 }
 
 /*==================== MEDIA QUERIES ====================*/
 /* PC: width >= 1024px */
 @media (min-width: 64em) {
- 
 }
 
 /* Tablet and mobile: width < 1024px */
 @media (max-width: 64.625em) {
-
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media (min-width: 46.25em) and (max-width: 64.625em) {
-    .voucher-imgs {
-        width: 80%;
-    }
-    
+  .voucher-imgs {
+    width: 80%;
+  }
 }
 
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
-    .list-promotion {
-        font-size: .8rem;
-    }
+  .list-promotion {
+    font-size: 0.8rem;
+  }
 
-    .ninjaInfo-imgs {
-        width: 100%;
-    }
-    .ninjaInfo-img {
-        width: 100%;
-    }
+  .ninjaInfo-imgs {
+    width: 100%;
+  }
+  .ninjaInfo-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-    .voucher-imgs {
-        width: 100%;
-    }
-    
+  .voucher-imgs {
+    width: 100%;
+  }
 }
