@@ -29,4 +29,9 @@ const gifts = [
         name: "Khẩu trang ninja van",
         src: "mask.png"
     },
+    {
+        id: 7,
+        name: "Máy in nhiệt mini parerang",
+        src: "mayanh.png"
+    },
 ]

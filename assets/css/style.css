@@ -662,6 +662,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /* PC: width >= 1024px */
 /* Tablet and mobile: width < 1024px */
 /* Tablet: width >= 740px and width < 1024px */
+@media (min-width: 46.25em) and (max-width: 64.625em) {
+  .box-random-gift__normal img {
+    width: 21% !important;
+  }
+}
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
   .box-wrapper__center {
