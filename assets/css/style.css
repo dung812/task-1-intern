@@ -661,22 +661,26 @@ p, h1, h2, h3, h4, h5, h6 {
 /*==================== MEDIA QUERIES ====================*/
 /* PC: width >= 1024px */
 /* Tablet and mobile: width < 1024px */
-@media (max-width: 64.625em) {
-  .box-wrapper__center {
+/* Tablet: width >= 740px and width < 1024px */
+@media (min-width: 46.25em) and (max-width: 64.625em) {
+  .box-center__tablet {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-}
-/* Tablet: width >= 740px and width < 1024px */
-@media (min-width: 46.25em) and (max-width: 64.625em) {
   .box-random-gift__normal img {
     width: 35% !important;
   }
 }
 /* Mobile: width < 740px */
 @media (max-width: 46.1875em) {
+  .box-wrapper__center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .title-gift {
     font-size: 1.2rem;
   }
